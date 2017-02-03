@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jaffer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3993a97e0651422fe41fdfdf227e0f67f833d200.jar" />
+    </item>
+    <item
+        jar="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-3ba9bc837e498f82aab8b5655f7562243309a54a.jar" />
+    </item>
+    <item
+        jar="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/pre-dexed/debug/classes-e3e11985060992956f15ed8fac3d453b9c50eb32.jar" />
+    </item>
+    <item
+        jar="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/jaffer/AndroidStudioProjects/Xposed_test/app/build/intermediates/pre-dexed/debug/classes-19cc5bc5cd3a6c15c89e3087b03d65b530d9ca3f.jar" />
+    </item>
+
+</items>
