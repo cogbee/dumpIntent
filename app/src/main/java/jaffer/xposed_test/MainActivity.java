@@ -311,7 +311,7 @@ public class MainActivity implements IXposedHookLoadPackage{
             }
         });
 
-        findAndHookMethod("android.content.ContextWrapper", lp.classLoader, "sendBroadcast", Intent.class, int.class, new XC_MethodHook() {
+        findAndHookMethod("android.content.ContextWrapper", lp.classLoader, "sendBroadcast", Intent.class, String.class, new XC_MethodHook() {
             @Override
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                 Intent str = (Intent) param.args[0];
