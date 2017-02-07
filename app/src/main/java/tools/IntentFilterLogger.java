@@ -26,19 +26,19 @@ public class IntentFilterLogger {
         }
         cNumber = intentFilter.countDataAuthorities();
         for (int i=0; i<cNumber; i++){
-            Log.v(tag, "dataAuthorities: " + intentFilter.getCategory(0));
+            Log.v(tag, "dataAuthorities: " + intentFilter.getDataAuthority(0));
         }
         cNumber = intentFilter.countDataPaths();
         for (int i=0; i<cNumber; i++){
-            Log.v(tag, "DataPaths: " + intentFilter.getCategory(0));
+            Log.v(tag, "DataPaths: " + intentFilter.getDataPath(0));
         }
         cNumber = intentFilter.countDataSchemes();
         for (int i=0; i<cNumber; i++){
-            Log.v(tag, "countDataSchemes: " + intentFilter.getCategory(0));
+            Log.v(tag, "countDataSchemes: " + intentFilter.getDataScheme(0));
         }
         cNumber = intentFilter.countDataTypes();
         for (int i=0; i<cNumber; i++){
-            Log.v(tag, "DataTypes: " + intentFilter.getCategory(0));
+            Log.v(tag, "DataTypes: " + intentFilter.getDataType(0));
         }
     }
 }

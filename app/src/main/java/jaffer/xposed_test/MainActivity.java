@@ -359,7 +359,7 @@ public class MainActivity implements IXposedHookLoadPackage{
             }
         });
 
-        findAndHookMethod("android.content.ContextWrapper", lp.classLoader, "removeStickyBroadcastAsUser", Intent.class, UserHandle.class, String.class, new XC_MethodHook() {
+        findAndHookMethod("android.content.ContextWrapper", lp.classLoader, "removeStickyBroadcastAsUser", Intent.class, UserHandle.class, new XC_MethodHook() {
             @Override
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                 Intent str = (Intent) param.args[0];
