@@ -8,6 +8,9 @@ need:
 xposed
 
 -------------
+I have used some code from IntentLogger(https://github.com/Drivemode/IntentLogger)
+
+-------------
 run log: you can use grep to get the intent you want. the key you can use is action or packageName.
 ```
 02-03 16:28:36.689 1568-1568/? V/dumpIntent(startService) (packageName:com.lbe.security): Intent[@4305fa00] content:
